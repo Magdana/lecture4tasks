@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: blueviolet;
+  padding: 20px;
+}
+#jsstyle {
+  font-size: 35px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  cursor: pointer;
+}
+form {
+  margin: 30px;
+}
+option {
+  font-size: 18px;
+}
+select {
+  font-size: 50px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: aqua;
+  color: white;
+}
+form input {
+  font-size: 40px;
+  cursor: pointer;
+}
